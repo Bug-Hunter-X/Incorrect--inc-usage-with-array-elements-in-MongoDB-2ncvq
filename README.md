@@ -1,0 +1,2 @@
+# Incorrect $inc usage with array elements in MongoDB
+This example demonstrates an incorrect use of the `$inc` operator with array elements in MongoDB and provides the correct solution.  The incorrect approach attempts to increment a specific element within an array directly using dot notation, which doesn't work as expected.  The correct solution uses the `$` positional operator in conjunction with an array filter.
